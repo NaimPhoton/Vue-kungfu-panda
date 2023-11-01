@@ -26,8 +26,10 @@ export default {
 
 <style scoped>
 .title {
-  width: 30%;
+  width: 35%;
   text-align: start;
+  border-left: solid;
+  padding-left: 5em;
 }
 h3 {
   padding: 5px;

@@ -1,19 +1,31 @@
-<script setup>
-import Header from './components/Header.vue';
-import Image from './components/Image.vue'
-import Title from './components/Titel.vue'
-</script>
-
 <template>
   <header>
-    <Header />
+    <Header></Header>
   </header>
 
   <div class="content">
-    <Image />
-    <Title />
+    <Image></Image>
+    <Title></Title>
   </div>
 </template>
+
+<script>
+import Header from './components/Header.vue'
+import Image from './components/Image.vue'
+import Title from './components/Titel.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Image,
+    Title
+  },
+  data() {
+    return {}
+  }
+}
+</script>
 
 <style scoped>
 .content {

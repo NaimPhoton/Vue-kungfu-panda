@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .image {
-  width: 50%;
+  width: 40%;
   background-color: white;
   border-radius: 5px;
   padding: 1em;
